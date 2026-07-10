@@ -5,8 +5,6 @@ import duckdb_wasm_eh from '@duckdb/duckdb-wasm/dist/duckdb-eh.wasm?url';
 import eh_worker from '@duckdb/duckdb-wasm/dist/duckdb-browser-eh.worker.js?url';
 
 
-
-
 const MANUAL_BUNDLES = {
   mvp: {
     mainModule: duckdb_wasm,
@@ -17,8 +15,6 @@ const MANUAL_BUNDLES = {
     mainWorker: eh_worker,
   },
 };
-
-
 
 
 

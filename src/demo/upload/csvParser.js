@@ -23,6 +23,7 @@ export function parseCSV(file) {
 
     if (extension !== 'csv') 
     {
+      
       reject(new Error(`csvParser: expected a .csv file but got .${extension}`));
 
       return;

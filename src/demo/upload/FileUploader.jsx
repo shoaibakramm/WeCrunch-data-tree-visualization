@@ -19,7 +19,6 @@ function FileUploader({ onDataParsed, onError }) {
   const [fileName, setFileName] = useState('');
 
 
-
   function handleFileChange(event) {
 
     const file = event.target.files[0];
