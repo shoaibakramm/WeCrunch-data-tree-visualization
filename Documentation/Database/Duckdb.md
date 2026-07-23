@@ -11,7 +11,7 @@ Browser actually has its own multiple types of storages such as: Local storage, 
 When we put the default mode which is the in memory mode of duckdb...duck db stores out data in RAM in form of apache arrow vectors which is a structural way of storing data in the ram for fast retrieval etc. Refreshing the page completely deletes this storage.
 
 For Persistent storage, the browser uses its OPFS.
-LocalStorage is far too small (5MB max) and slow. While IndexedDB is large enough, its structured object cloning API adds massive overhead that destroys the high-performance columnar indexing DuckDB relies on.
+LocalStorage is far too small (5MB max) and slow.
 stored directly on your computer's storage drive (SSD/HDD), inside a hidden, browser-managed directory.
 we can actually go to our files and see the data stored in folders in files.
 
